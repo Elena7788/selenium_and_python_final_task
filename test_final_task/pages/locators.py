@@ -6,6 +6,11 @@ class BasePageLocators():
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
 
 
+class BasketPageLocators:
+    VIEW_BASKET = (By.CSS_SELECTOR, ".basket-mini>span>a")
+    BASKET_FORMSET = (By.CSS_SELECTOR, "#basket_formset")
+    BASKET_EMPTY_TEXT = (By.CSS_SELECTOR, "#content_inner>p>a")
+
 class MainPageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
